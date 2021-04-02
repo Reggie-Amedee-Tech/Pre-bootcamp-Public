@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#outer-wrapper{
+    margin: 0px auto;
+    background-color: rgb(3, 3, 61);
+    width: 1000px;
+    margin-bottom: 1px;
+    padding-top: 10px;
+}
+#inner-wrapper{
+    background-color: white;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#header{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    margin-right: 100px;
+}
+#header ul{
+    display: flex;
+}
+#header li{
+    margin-left: 50px;
+    list-style-type: none;
+}
+span{
+    color: rgb(21, 106, 175);
+}
+#home-header{
+    color: rgb(11, 43, 133);
+}
+#middle-page{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.middle-body img{
+    width: 40px;
+    background-color: white;
+}
+.middle-body-box h2{
+    margin-left: 5px;
+}
+.middle-body-box{
+    background-color: rgb(7, 88, 194);
+    width: 300px;
+    height: 290px;
+    margin-top: 20px;
+    display: flex;
+}
+.middle-body-box p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(11, 177, 253);
+    background-image: linear-gradient(rgb(11, 177, 253), rgb(17, 0, 255));
+}
+.middle-title{
+    display: flex;
+    color: white;
+}
+#lower-page{
+    display: flex;
+    justify-content: space-between;
+}
+#lower-body-box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px
+}
+
+#lower-body-box-left img{
+    width: 310px;
+    height: 185px;
+}
+#lower-body-box-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 290px;
+}
+
+#lower-body-box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 290px;
+}
+#testimonial{
+    width: 300px;
+    height: 100px;
+}
+#footer{
+    background-color: rgb(87, 174, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+#footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#footer li{
+    margin-left: 20px;
+    list-style-type: none;
+    color: rgb(36, 94, 148);
+}
+#footer-home{
+    color: lightblue;
+}
